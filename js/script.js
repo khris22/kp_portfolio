@@ -37,24 +37,15 @@ $( document ).ready(function() {
             }
         }
     })
-
-    // pieChart
-    // $('.chart').easyPieChart({
-    //     easing: 'easeInOut',
-    //     barColor: '#fff',
-    //     trackColor: false,
-    //     scaleColor: false,
-    //     lineWidth: 4,
-    //     size: 152,
-    //     onStep: function(from, to, percent) {
-    //     	$(this.el).find('.percent').text(Math.round(percent));
-    //     }
-    //     });
     
     // animate on scroll for piechart
     var skillsTopOffset = $(".skillsSection").offset().top;
+    var statsTopOffset = $(".statsSection").offset().top;
+    var countUpFinished = false
+
     $(window).scroll(function() {
         if(window.pageYOffset > skillsTopOffset - $(window).height() + 300) {
+            // piechart
             $('.chart').easyPieChart({
                 easing: 'easeInOut',
                 barColor: '#fff',
@@ -67,7 +58,19 @@ $( document ).ready(function() {
                 }
             });
         }
+
+        if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 300) {
+            // stats counter
+            $(".counter").each(function() {
+                var element = $(this);
+                var endVal = parseInt(element.text());
+                element.countup(endVal);
+            })
+            countUpFinished = true
+        }
     });
 
+    
+    
 
 });
