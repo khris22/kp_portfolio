@@ -7,6 +7,8 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- superslides -->
     <link rel="stylesheet" type="text/css" href="css/superslides.css">
+    <!-- owlCarousel -->
+    <link rel="stylesheet" type="text/css" href="css/owl.carousel.min.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
 
@@ -45,20 +47,66 @@
     <!-- About Page -->
     <div id="about" class="section">
         <div class="container">
-        <div class="row">
-            <div class="col-md-5">
-                <img class="aboutImage" src="images/profilepic.png" alt="Profile Image">
-            </div>
+            <div class="row">
+                <div class="col-md-5">
+                    <img class="aboutImage" src="images/profilepic.png" alt="Profile Image">
+                </div>
 
-            <div class="col-md-7">
-                <h4>Hello! I'm Khris Punzalan.</h4>
-                <p>Lorem ipsum dolor sit amet, tollit quaestio dissentiunt id mea, pro eu aliquid facilisis. Pro ex lorem dictas, malorum efficiantur mea cu. Vis te illud prompta recteque, et dolorem offendit usu. Sed noster vocibus patrioque at.
+                <div class="col-md-7">
+                    <h4>Hello! I'm Khris Punzalan.</h4>
+                    <p>Lorem ipsum dolor sit amet, tollit quaestio dissentiunt id mea, pro eu aliquid facilisis. Pro ex lorem dictas, malorum efficiantur mea cu. Vis te illud prompta recteque, et dolorem offendit usu. Sed noster vocibus patrioque at.
 
-                <p>Discere mentitum te sit, pri id cibo iriure. Percipit detraxit eum an, diam ferri repudiare usu ea. Mei dico salutatus vulputate ea, ad nam persius reformidans conclusionemque. Nemore aperiam ne duo. Ius ea molestie adipiscing, ea debet eruditi disputationi sea. Vis ad dolore soleat neglegentur, doctus tibique in qui, rebum nobis sea te.</p>
-                    
-                <p>At has democritum philosophia, ut vis dicunt fabellas. Te ubique feugiat vix. Eos ne eruditi instructior. Tibique copiosae nec an, mea ea quis apeirian. An quo minim senserit democritum. Ne eirmod maluisset scripserit eos, ipsum molestie recteque no vim, in qui aeterno vivendum eloquentiam.</p>
+                    <p>Discere mentitum te sit, pri id cibo iriure. Percipit detraxit eum an, diam ferri repudiare usu ea. Mei dico salutatus vulputate ea, ad nam persius reformidans conclusionemque. Nemore aperiam ne duo. Ius ea molestie adipiscing, ea debet eruditi disputationi sea. Vis ad dolore soleat neglegentur, doctus tibique in qui, rebum nobis sea te.</p>
+                        
+                    <p>At has democritum philosophia, ut vis dicunt fabellas. Te ubique feugiat vix. Eos ne eruditi instructior. Tibique copiosae nec an, mea ea quis apeirian. An quo minim senserit democritum. Ne eirmod maluisset scripserit eos, ipsum molestie recteque no vim, in qui aeterno vivendum eloquentiam.</p>
+                </div>
             </div>
         </div>
+    </div>
+
+    <!-- Technical Skills Section -->
+    <div id="about" class="skillsSection section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    <h2>TECHINICAL SKILLS</h2>
+                    <p>Representation of Proficieny in Each Skill</p>
+                </div>
+                <div class="owl-carousel owl-theme">
+                    <div class="skill">
+                        <span class="chart" data-percent="65">
+                            <span class="percent">65</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                                <h4>RUBY</h4>
+                                <p>Explanation of Skill(Example: Used in most of my project)</p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="80">
+                            <span class="percent">80</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                                <h4>JAVASCRIPT</h4>
+                                <p>Explanation of Skill(Example: Used in most of my project)</p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="72">
+                            <span class="percent">72</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                                <h4>REACT</h4>
+                                <p>Explanation of Skill(Example: Used in most of my project)</p>
+                    </div>
+                    <div class="skill">
+                        <span class="chart" data-percent="90">
+                            <span class="percent">90</span>
+                            <canvas height="152" width="152"></canvas>
+                        </span>
+                                <h4>BOOTSTRAP</h4>
+                                <p>Explanation of Skill(Example: Used in most of my project)</p>
+                    </div>
+                </div>        
+            </div>
         </div>
     </div>
 
@@ -67,6 +115,10 @@
     <script src="js/jquery.superslides.min.js"></script>
     <!-- typedjs -->
     <script src="js/typed.min.js"></script>
+    <!-- owlCarousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- owlCarousel -->
+    <script src="js/jquery.easypiechart.min.js"></script>
 
     <!-- jquery, popper, bootstrap -->
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
