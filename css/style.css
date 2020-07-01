@@ -63,7 +63,7 @@ body {
 }
 
 .section {
-    padding: 100px 0;
+    padding: 80px 0;
 }
 
 .aboutImage {
@@ -76,7 +76,7 @@ body {
 
 .skillsSection,
 .contactSection {
-    background-color: #74b9ff;
+    background-color: #42b4d1;
     color: white;
 
 }
@@ -327,7 +327,7 @@ body {
 }
 
 #navigation {
-    background-color: #cc6f83;
+    background-color: #388396;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
@@ -436,6 +436,6 @@ ul.socialIcons {
   }
 
   .socialMedia {
-      padding: 50px 0 0 0;
+      /* padding:  10px 0 0 0; */
       text-align: center;
   }
