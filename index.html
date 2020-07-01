@@ -13,12 +13,16 @@
 
     <!-- Bootstrap -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <!-- bootstrap viewport on mobile device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
     <!-- fancyApp -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
 
+    <!-- test fontawesome for social media buttons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <!-- custom css -->
     <link rel="stylesheet" type="text/css" href="css/style.css">
@@ -97,6 +101,14 @@
                     <p>Discere mentitum te sit, pri id cibo iriure. Percipit detraxit eum an, diam ferri repudiare usu ea. Mei dico salutatus vulputate ea, ad nam persius reformidans conclusionemque. Nemore aperiam ne duo. Ius ea molestie adipiscing, ea debet eruditi disputationi sea. Vis ad dolore soleat neglegentur, doctus tibique in qui, rebum nobis sea te.</p>
                         
                     <p>At has democritum philosophia, ut vis dicunt fabellas. Te ubique feugiat vix. Eos ne eruditi instructior. Tibique copiosae nec an, mea ea quis apeirian. An quo minim senserit democritum. Ne eirmod maluisset scripserit eos, ipsum molestie recteque no vim, in qui aeterno vivendum eloquentiam.</p>
+                         <!-- social media icons -->
+                         <div class="socialMedia">
+                            <a href="#" class="fab"><i class="fab fa-twitter"></i></a>                   
+                            <a href="#" class="fab"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="fab"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="fab"><i class="fab fa-twitter"></i></a>
+                            </div>
+               
                 </div>
             </div>
         </div>
@@ -148,7 +160,122 @@
         </div>
     </div>
 
-    <!-- Will probably erase -->
+   <!-- Portfolio Section -->
+    <div id="portfolio" class="section">
+    <div class="container">
+        <div class="row">
+            <div class="heading">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="filter">
+                <ul id="filters">
+                    <li><a href="#" data-filter="*" class="current">ALL</a></li>
+                    <li><a href="#" data-filter=".rails">RAILS</a></li>
+                    <li><a href="#" data-filter=".javascript">JAVASCRIPT</a></li>
+                    <li><a href="#" data-filter=".react">REACT</a></li>
+                </ul>
+            </div>
+            <div class="itemsContainer">
+                <ul class="items">
+                    <li onclick="" class="rails col-xs-6 col-md-4 col-md-3 col-lg-3">
+                        <div class="item">
+                            <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
+                            <div class="icons">
+                                <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a href="" target="_blank" class="projectLink">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+
+                    <li onclick="" class="javascript col-xs-6 col-md-4 col-md-3 col-lg-3">
+                        <div class="item">
+                            <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
+                            <div class="icons">
+                                <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a href="" target="_blank" class="projectLink">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+
+                    <li onclick="" class="react col-xs-6 col-md-4 col-md-3 col-lg-3">
+                        <div class="item">
+                            <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
+                            <div class="icons">
+                                <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a href="" target="_blank" class="projectLink">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+
+                    <li onclick="" class="rails col-xs-6 col-md-4 col-md-3 col-lg-3">
+                        <div class="item">
+                            <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
+                            <div class="icons">
+                                <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a href="" target="_blank" class="projectLink">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+
+                    <li onclick="" class="javascript col-xs-6 col-md-4 col-md-3 col-lg-3">
+                        <div class="item">
+                            <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
+                            <div class="icons">
+                                <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
+                                    <i class="fa fa-search"></i>
+                                </a>
+                                <a href="" target="_blank" class="projectLink">
+                                    <i class="fa fa-link"></i>
+                                </a>
+                            </div>
+                            <div class="imageOverlay"></div>
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <!-- Contact me section -->
+    <div id="contact" class="contactSection section">
+        <div class="col-md-12 text-center">
+            <p class="subheading">
+                Like what you see?
+            </p>
+            <h2>I'd love to hear from you!</h2>
+            <a href="mailTo:khrispunzalan@gmail.com" class="contactButton">
+                GET IN TOUCH
+            </a>
+        </div>
+
+    </div>
+
+    
+     <!-- Will probably erase -->
     <!-- Stats Section -->
     <div id="stats" class="statsSection section">
         <div class="container">
@@ -205,119 +332,6 @@
                     </div>
                 </div>
 
-            </div>
-        </div>
-    </div>
-
-    <!-- Contact me section -->
-    <div id="contact" class="contactSection section">
-        <div class="col-md-12 text-center">
-            <p class="subheading">
-                Like what you see?
-            </p>
-            <h2>I'd love to hear from you!</h2>
-            <a href="mailTo:khrispunzalan@gmail.com" class="contactButton">
-                GET IN TOUCH
-            </a>
-        </div>
-
-    </div>
-
-    <!-- Portfolio Section -->
-    <div id="portfolio" class="section">
-        <div class="container">
-            <div class="row">
-                <div class="heading">
-                    <h2>PORTFOLIO</h2>
-                </div>
-                <div class="filter">
-                    <ul id="filters">
-                        <li><a href="#" data-filter="*" class="current">ALL</a></li>
-                        <li><a href="#" data-filter=".rails">RAILS</a></li>
-                        <li><a href="#" data-filter=".javascript">JAVASCRIPT</a></li>
-                        <li><a href="#" data-filter=".react">REACT</a></li>
-                    </ul>
-                </div>
-                <div class="itemsContainer">
-                    <ul class="items">
-                        <li onclick="" class="rails col-xs-6 col-md-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
-                                <div class="icons">
-                                    <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-
-                        <li onclick="" class="javascript col-xs-6 col-md-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
-                                <div class="icons">
-                                    <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-
-                        <li onclick="" class="react col-xs-6 col-md-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
-                                <div class="icons">
-                                    <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-
-                        <li onclick="" class="rails col-xs-6 col-md-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
-                                <div class="icons">
-                                    <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-
-                        <li onclick="" class="javascript col-xs-6 col-md-4 col-md-3 col-lg-3">
-                            <div class="item">
-                                <img src="images/portfolioImg/thumbIMG.jpg" alt="thumbnail1">
-                                <div class="icons">
-                                    <a href="images/portfolioImg/codeIMG.jpg" title="View Image" class="openButton" data-fancybox data-caption="TITLE HERE!!! This is my Rails App">
-                                        <i class="fa fa-search"></i>
-                                    </a>
-                                    <a href="" target="_blank" class="projectLink">
-                                        <i class="fa fa-link"></i>
-                                    </a>
-                                </div>
-                                <div class="imageOverlay"></div>
-                            </div>
-                        </li>
-
-                    </ul>
-
-                </div>
             </div>
         </div>
     </div>
