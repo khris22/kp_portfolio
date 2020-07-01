@@ -2,7 +2,7 @@
 body {
     font-size: 14px;
     color: #333333;
-    background-color: #fff;
+    background-color: #fff5d7;
     letter-spacing: 1px;
 }
 
@@ -327,7 +327,7 @@ body {
 }
 
 #navigation {
-    background-color: #0984e3;
+    background-color: #cc6f83;
     padding: 20px 10px;
     z-index: 100;
     width: 100%;
@@ -372,38 +372,70 @@ body {
     background: url(../images/loading.gif) center center no-repeat;
 }
 
-.fab {
-    padding: 15px;
-    font-size: 25px;
-    width: 53px;
+ul.socialIcons {
+    padding: 0;
     text-align: center;
-    text-decoration: none;
-    border-radius: 50%;
   }
   
-  .fab:hover {
-      opacity: 0.7;
-  }
-
-  .fa-twitter {
-    background: #55ACEE;
-    color: white;
-  }
-
-  .fa-linkedin {
-    background: #007bb5;
-    color: white;
-  }
-
-  .socialMedia a{
-    padding: 0 35px;
+  .socialIcons li {
+    background-color: #fff;
+    list-style: none;
     display: inline-block;
+    margin: 10px;
+    border-radius: 5em;
+    overflow: hidden;
+    font-size: 30px;
+  }
+  
+  .socialIcons li a {
+    display: inline-block;
+    padding: 0.3em;
+    min-width: 2em;
+    max-width: 2em;
+    height: 2em;
+    white-space: nowrap;
+    line-height: 1.5em; 
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: arial;
+    color: #fff;
+  }
+  
+  .socialIcons li i {
+    margin-right: 0.5em;
+  }
+  
+  .socialIcons li:hover a {
+    max-width: 200px;
+    padding-right: 1em;
+  }
+    
+  .socialIcons .twitter {
+    background-color: #00aced;
+    box-shadow: 0 0 16px #00aced;
+  }
+
+  .socialIcons .linkedin {
+    background-color: #0976b4;
+    box-shadow: 0 0 16px #0976b4;
+  }
+
+  .socialIcons .github {
+    background-color: #171515;
+    box-shadow: 0 0 16px #171515;
+  }
+
+  .socialIcons .email {
+    background-color: #00b894;
+    box-shadow: 0 0 16px #00b894;
+  }
+
+  .socialIcons .resume {
+    background-color: #6c5ce7;
+    box-shadow: 0 0 16px #6c5ce7;
   }
 
   .socialMedia {
-      text-align: right;
-      width: 100%;
-      padding: 0 10px;
-      display: inline-block;
-      position: relative;
+      padding: 50px 0 0 0;
+      text-align: center;
   }
