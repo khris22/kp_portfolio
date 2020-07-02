@@ -244,6 +244,7 @@ body {
     margin: -20px auto 0 -47px;
     text-align: center;
     z-index: 3;
+
 }
 
 .items .icons i {
@@ -291,16 +292,21 @@ body {
     left: -200px;
 }
 
-.items .projectLink {
+.items .projectLink,
+.items .mediaLink {
     float: right;
     right: -200px;
 }
+
 
 .items .item:hover .openButton {
     left: 0px;
 }
 
 .items .item:hover .projectLink {
+    right: 0px;
+}
+.items .item:hover .mediaLink {
     right: 0px;
 }
 
