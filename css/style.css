@@ -212,15 +212,17 @@ body {
 
 .items li {
     display: inline-block;
-    padding: 5px;
+    padding: 10px;
 }
 
 .itemsContainer {
     width: 100%;
+    /* height: 100%; */
 }
 
 .items li img{
     width: 100%;
+    /* height: 100%; */
 
     -webkit-transition: all 0.2s linear, 1s;
     -moz-transition: all 0.2s linear, 1s;
@@ -287,13 +289,14 @@ body {
     opacity: 1;
 }
 
-.items .openButton {
+.items .openButton,
+.items .mediaLink {
     float: left;
     left: -200px;
 }
 
 .items .projectLink,
-.items .mediaLink {
+.items .githubLink {
     float: right;
     right: -200px;
 }
@@ -307,6 +310,10 @@ body {
     right: 0px;
 }
 .items .item:hover .mediaLink {
+    left: 0px;
+}
+
+.items .item:hover .githubLink {
     right: 0px;
 }
 
