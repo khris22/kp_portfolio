@@ -36,6 +36,10 @@ body {
     background-image: url(../images/iconleft.png);
 }
 
+.slides-container img{
+    opacity: 0.75;
+}
+
 /* name and title */
 .titleMessage {
 	position: absolute;
@@ -60,6 +64,11 @@ body {
 
 .titleMessage .heading .sub {
 	font-size: 23px;
+}
+
+.titleMessage .heading .typed {
+    font-weight: bold;
+    color: aqua;
 }
 
 .section {
