@@ -462,6 +462,9 @@ ul.socialIcons {
       text-align: center;
   }
 
-  .devicon-ruby-plain-wordmark {
+  .devicon-ruby-plain-wordmark,
+  .devicon-javascript-plain,
+  .devicon-react-original,
+  .devicon-bootstrap-plain {
     font-size: 5em;
   }
