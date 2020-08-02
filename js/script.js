@@ -63,17 +63,17 @@ $( document ).ready(function() {
     $(window).scroll(function() {
         if(window.pageYOffset > skillsTopOffset - $(window).height() + 300) {
             // piechart
-            $('.chart').easyPieChart({
-                easing: 'easeInOut',
-                barColor: '#fff',
-                trackColor: false,
-                scaleColor: false,
-                lineWidth: 4,
-                size: 152,
-                onStep: function(from, to, percent) {
-                    $(this.el).find('.percent').text(Math.round(percent));
-                }
-            });
+            // $('.chart').easyPieChart({
+            //     easing: 'easeInOut',
+            //     barColor: '#fff',
+            //     trackColor: false,
+            //     scaleColor: false,
+            //     lineWidth: 4,
+            //     size: 152,
+            //     onStep: function(from, to, percent) {
+            //         $(this.el).find('.percent').text(Math.round(percent));
+            //     }
+            // });
         }
 
         if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 300) {
