@@ -90,9 +90,12 @@ body {
 
 }
 
-.skill {
+.skills {
     text-align: center;
-    margin-left: 10px;
+    /* margin-left: 10px; */
+    /* display: inline; */
+    float: none;
+    margin: 0 auto;
 }
 
 .chart {
@@ -466,7 +469,7 @@ ul.socialIcons {
   .devicon-javascript-plain,
   .devicon-react-original,
   .devicon-bootstrap-plain {
-    font-size: 8em !important;
+    font-size: 5em !important;
     /* background-size: 50px;
     height: 50px;
     width: 50px */
