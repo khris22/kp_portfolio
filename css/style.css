@@ -351,7 +351,7 @@ body {
 .copyrightSection {
     background-color: #000;
     color: #fff;
-    padding: 30px 5px;
+    padding: 15px 5px;
 }
 
 .copyrightSection p {
@@ -359,8 +359,8 @@ body {
 }
 
 #navigation {
-    background-color: #388396;
-    padding: 20px 10px;
+    background-color: #d84444;
+    padding: 10px 10px;
     z-index: 100;
     width: 100%;
 }
