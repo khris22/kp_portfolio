@@ -87,7 +87,6 @@ body {
 .contactSection {
     background-color: #42b4d1;
     color: white;
-
 }
 
 .skills {
@@ -96,7 +95,14 @@ body {
     /* display: inline; */
     float: none;
     margin: 0 auto;
+    padding: 10px;
 }
+
+.skills h5 {
+    text-align: center;
+    font-size: 12px;
+
+} 
 
 .chart {
     position: relative;
@@ -437,27 +443,27 @@ ul.socialIcons {
     
   .socialIcons .twitter {
     background-color: #00aced;
-    box-shadow: 0 0 16px #00aced;
+    box-shadow: 0 0 10px #00aced;
   }
 
   .socialIcons .linkedin {
     background-color: #0976b4;
-    box-shadow: 0 0 16px #0976b4;
+    box-shadow: 0 0 10px #0976b4;
   }
 
   .socialIcons .github {
     background-color: #171515;
-    box-shadow: 0 0 16px #171515;
+    box-shadow: 0 0 10px #171515;
   }
 
   .socialIcons .email {
     background-color: #00b894;
-    box-shadow: 0 0 16px #00b894;
+    box-shadow: 0 0 10px #00b894;
   }
 
   .socialIcons .resume {
     background-color: #6c5ce7;
-    box-shadow: 0 0 16px #6c5ce7;
+    box-shadow: 0 0 10px #6c5ce7;
   }
 
   .socialMedia {
@@ -468,8 +474,9 @@ ul.socialIcons {
   .devicon-ruby-plain-wordmark,
   .devicon-javascript-plain,
   .devicon-react-original,
-  .devicon-bootstrap-plain {
-    font-size: 5em !important;
+  .devicon-bootstrap-plain,
+  .devicon-css3-plain {
+    font-size: 4em !important;
     /* background-size: 50px;
     height: 50px;
     width: 50px */
