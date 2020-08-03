@@ -87,6 +87,7 @@ body {
 .contactSection {
     background-color: #42b4d1;
     color: white;
+
 }
 
 .skills {
@@ -471,11 +472,17 @@ ul.socialIcons {
       text-align: center;
   }
 
-  .devicon-ruby-plain-wordmark,
+  .devicon-ruby-plain,
+  .devicon-rails-plain,
+
   .devicon-javascript-plain,
   .devicon-react-original,
   .devicon-bootstrap-plain,
-  .devicon-css3-plain {
+  .devicon-html5-plain,
+  .devicon-css3-plain,
+  .devicon-git-plain,
+  .devicon-postgresql-plain,
+  .devicon-github-plain {
     font-size: 4em !important;
     /* background-size: 50px;
     height: 50px;
