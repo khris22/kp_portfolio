@@ -1,7 +1,7 @@
 // loading icon
 $(window).on("load", function() {
-    $(".loader .inner").fadeOut(500, function() {
-        $(".loader").fadeOut(750);
+    $(".loader .inner").fadeOut(100, function() {
+        $(".loader").fadeOut(350);
     });
 
     $(".items").isotope({
@@ -27,7 +27,7 @@ $( document ).ready(function() {
     // typedJs
     var typed = new Typed('.typed', {
         strings: ["Software Engineer", "Full Stack Web Developer", "Adventurer"],
-        typeSpeed: 70,
+        typeSpeed: 50,
         loop: true,
         startDelay: 1000,
         showCursor: false
@@ -61,20 +61,20 @@ $( document ).ready(function() {
     var countUpFinished = false
 
     $(window).scroll(function() {
-        if(window.pageYOffset > skillsTopOffset - $(window).height() + 300) {
-            // piechart
-            // $('.chart').easyPieChart({
-            //     easing: 'easeInOut',
-            //     barColor: '#fff',
-            //     trackColor: false,
-            //     scaleColor: false,
-            //     lineWidth: 4,
-            //     size: 152,
-            //     onStep: function(from, to, percent) {
-            //         $(this.el).find('.percent').text(Math.round(percent));
-            //     }
-            // });
-        }
+        // if(window.pageYOffset > skillsTopOffset - $(window).height() + 300) {
+        //     piechart
+        //     $('.chart').easyPieChart({
+        //         easing: 'easeInOut',
+        //         barColor: '#fff',
+        //         trackColor: false,
+        //         scaleColor: false,
+        //         lineWidth: 4,
+        //         size: 152,
+        //         onStep: function(from, to, percent) {
+        //             $(this.el).find('.percent').text(Math.round(percent));
+        //         }
+        //     });
+        // }
 
         if(!countUpFinished && window.pageYOffset > statsTopOffset - $(window).height() + 300) {
             // stats counter

@@ -2,7 +2,7 @@
 body {
     font-size: 14px;
     color: #333333;
-    background-color: #fff5d7;
+    background-color: #fcfbf8;
     letter-spacing: 1px;
 }
 
@@ -68,7 +68,7 @@ body {
 
 .titleMessage .heading .typed {
     font-weight: bold;
-    color: aqua;
+    color: rgb(58, 216, 221);
 }
 
 .section {
@@ -85,7 +85,7 @@ body {
 
 .skillsSection,
 .contactSection {
-    background-color: #42b4d1;
+    background-color: #9fa2a3;
     color: white;
 
 }
@@ -359,7 +359,7 @@ body {
 }
 
 #navigation {
-    background-color: #d84444;
+    background-color: #767676;
     padding: 10px 10px;
     z-index: 100;
     width: 100%;
@@ -413,10 +413,10 @@ ul.socialIcons {
     background-color: #fff;
     list-style: none;
     display: inline-block;
-    margin: 10px;
-    border-radius: 5em;
+    margin: 8px;
+    border-radius: 10em;
     overflow: hidden;
-    font-size: 30px;
+    font-size: 25px;
   }
   
   .socialIcons li a {
@@ -427,9 +427,9 @@ ul.socialIcons {
     height: 2em;
     white-space: nowrap;
     line-height: 1.5em; 
-    transition: 0.5s;
+    transition: 0.3s;
     text-decoration: none;
-    font-family: arial;
+    /* font-family: arial; */
     color: #fff;
   }
   
@@ -444,27 +444,27 @@ ul.socialIcons {
     
   .socialIcons .twitter {
     background-color: #00aced;
-    box-shadow: 0 0 10px #00aced;
+    box-shadow: 0 0 5px #00aced;
   }
 
   .socialIcons .linkedin {
     background-color: #0976b4;
-    box-shadow: 0 0 10px #0976b4;
+    box-shadow: 0 0 5px #0976b4;
   }
 
   .socialIcons .github {
     background-color: #171515;
-    box-shadow: 0 0 10px #171515;
+    box-shadow: 0 0 5px #171515;
   }
 
   .socialIcons .email {
     background-color: #00b894;
-    box-shadow: 0 0 10px #00b894;
+    box-shadow: 0 0 5px #00b894;
   }
 
   .socialIcons .resume {
     background-color: #6c5ce7;
-    box-shadow: 0 0 10px #6c5ce7;
+    box-shadow: 0 0 5px #6c5ce7;
   }
 
   .socialMedia {
